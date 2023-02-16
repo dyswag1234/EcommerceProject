@@ -1,0 +1,30 @@
+.carousel,
+.carousel-item,
+.carousel-item img {
+  height: 800px;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+.carousel-caption h6 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: red;
+}
+.carousel h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  width: 400px;
+}
+.carousel p {
+  width: 400px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  color: black;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  color: black;
+}

@@ -1,0 +1,60 @@
+.login-form,
+.register-form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  text-align: center;
+}
+form h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+form input {
+  margin: 15px 0;
+}
+form input[type="email"],
+form input[type="password"] {
+  width: 350px;
+  height: 50px;
+  padding: 0 1em;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+form input[type="submit"] {
+  width: 350px;
+  height: 50px;
+  color: white;
+  background-color: #308c9c;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+form input[type="submit"]:hover {
+  background-color: #3dadc1;
+}
+form .forgotPass {
+  font-size: 0.85rem;
+  color: gray;
+}
+form p {
+  margin-top: 20px;
+}
+form .registerLink,
+form .loginLink {
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #ffff;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

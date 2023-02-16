@@ -1,0 +1,9 @@
+table {
+  font-size: 0.85rem;
+}
+table tbody tr {
+  text-align: center;
+}
+table thead th {
+  cursor: pointer;
+}

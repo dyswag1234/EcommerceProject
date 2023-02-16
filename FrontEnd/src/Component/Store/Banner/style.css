@@ -1,0 +1,9 @@
+.item-col {
+  height: 660px;
+}
+a:hover {
+  color: black;
+}
+.item-col:hover img {
+  transform: scale(105%);
+}

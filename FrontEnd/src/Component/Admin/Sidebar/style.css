@@ -1,0 +1,14 @@
+.sidebar {
+  min-width: 288px;
+}
+.sidebar-content ul li {
+  margin: 10px 0;
+  color: rgb(196, 196, 196);
+}
+.sidebar-content ul {
+  margin: 20px 0;
+}
+.sidebar-content ul li span {
+  margin-left: 10px;
+  font-weight: 500;
+}

@@ -1,0 +1,57 @@
+.shop-navbar .nav-item:first-child {
+  margin-right: 10px;
+}
+.shop-navbar .nav-item select {
+  padding: 4px 10px;
+  margin-left: 10px;
+}
+/* In shop item */
+.product-col h3:hover {
+  color: rgb(36, 196, 196);
+}
+.product-col a:hover {
+  color: inherit;
+}
+.hover-nav {
+  opacity: 0%;
+  bottom: 100%;
+  transition: 0.3s ease-in-out;
+}
+.product-col:hover .hover-nav {
+  opacity: 100%;
+  bottom: 0;
+  left: 0;
+}
+.product-col img {
+  transition: 0.4s linear;
+}
+.product-col:hover img {
+  transform: scale(110%);
+  filter: brightness(90%);
+}
+.hover-nav .hover-nav-btn {
+  width: 150px;
+  height: 45px;
+  margin: 5px 0;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hover-nav-btn {
+  transition: 0.3s;
+}
+.hover-nav-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.hover-nav-btn i {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+.hover-nav-btn i span {
+  font-size: 1rem;
+  font-weight: normal;
+}
